@@ -1,0 +1,45 @@
+@font-face {
+    font-family: "Gotham";
+    src: url("../Gotham-Font/GothamBook.ttf");
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Gotham";
+}
+
+/*forcer le changement du style de la barre de navigation fournie par bootstrap*/
+.navbar, .container-fluid {
+    background-color: rgba(0, 140, 149, 1) !important;
+    height: 54px ;
+}  
+/*placer et redimensionner le logo utiliser*/
+#logo-afpa {
+    width: 99px;
+    height: 54px;
+    top: 0;
+}
+/*changement du background des liens vers les autres pages*/
+.nav-item {
+    background-color: rgba(120, 190, 32, 1); 
+}
+
+/*pour le changement de décoration des éléments de la barre de navigation et du lien vers la formation*/
+.nav-link:hover{
+    background-color: rgba(0, 140, 149, 1); 
+    color: white !important;
+    border-radius: 5px;
+}
+/*forcer le marging left de la navbar pour que le logo s'affiche correctement*/
+#navbarNav {
+    margin-left: 99px;
+}
+
+
+
+
+
+
