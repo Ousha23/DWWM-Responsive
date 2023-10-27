@@ -1,0 +1,27 @@
+.pt-5 {
+    padding-top: 90px !important;
+}
+.detail {
+    background-color: #302035;
+    border: 10px double rgba(0, 140, 149, 1);
+    border-radius: 10px;
+}
+h1{
+    color : rgba(0, 140, 149, 1);
+    text-shadow: #78BE20 1px 0 10px; 
+}
+p {
+    text-align: justify !important;
+}
+
+.titre {
+    text-decoration:underline !important;
+    font-weight: bolder !important;
+    font-style: italic;
+    color: #78BE20;
+    text-shadow: #78BE20 1px 0 10px;
+}
+
+.droite {
+    border-left: 0.5rem solid #78BE20 !important;
+}

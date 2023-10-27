@@ -9,6 +9,7 @@
 }
 body {
     font-family: "Gotham";
+    background-image: url("../Images/A2-1920.jpg");
 }
 
 /*forcer le changement du style de la barre de navigation fournie par bootstrap*/
