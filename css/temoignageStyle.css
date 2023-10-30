@@ -1,0 +1,30 @@
+.card-img-top {
+    width: 90px !important;
+    height: 90px !important;
+}
+h1{
+    color : rgba(0, 140, 149, 1);
+    text-shadow: #78BE20 1px 0 10px; 
+}
+
+.col-12 {
+    background-color: #302035;
+    border: 10px double #78BE20;
+}
+
+.card {
+    background-color: #302035;
+}
+p {
+    text-align: justify !important;
+}
+
+.card-title {
+    font-weight: bolder !important;
+    color: rgba(0, 140, 149, 1);
+    text-shadow: rgba(0, 140, 149, 1) 1px 0 10px;
+}
+.card-subtitle {
+    font-style: italic;
+    color : rgba(0, 140, 149, 1);
+}

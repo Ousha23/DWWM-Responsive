@@ -39,6 +39,10 @@ body {
     margin-left: 99px;
 }
 
+.active {
+    font-weight: bolder;
+    color: rgba(0, 140, 149, 1) !important;
+}
 
 
 

@@ -4,100 +4,123 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="Images/favicon.ico"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/navStyle.css">
+    <link rel="stylesheet" href="css/temoignageStyle.css">
     <title>D'anciens stagiaires témoignent</title>
   </head>
   <body>
     <header>
-      <img src="Images/logo.jpeg" alt="Logo de la société AFPA" />
-      <nav>
-        <ul>
-          <li><a href="index.html">Accueil</a></li>
-          <li><a href="formationDWWM.html">La formation</a></li>
-          <li><a href="temoignages.html">Ils témoignent</a></li>
-          <li><a href="references.html">Nos références</a></li>
-          <li><a href="contact.html">Nous contacter</a></li>
-        </ul>
+      <nav class="navbar position-fixed navbar-expand-lg">
+        <div class="container-fluid position-fixed">
+          <a class="navbar-brand" href="index.html"><img class="align-items-center position-fixed " id="logo-afpa" src="Images/LOGO-AFPA.png" alt="Logo de la société AFPA"/></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav text-center ">
+              <li class="nav-item mx-1 shadow rounded">
+                <a class="nav-link" href="index.html"><em>Accueil</em></a>
+              </li>
+              <li class="nav-item mx-1 shadow rounded">
+                <a class="nav-link " href="formationDWWM.html"><em>La formation</em> </a>
+              </li>
+              <li class="nav-item mx-1 shadow rounded">
+                <a class="nav-link active" aria-current="page" href="temoignages.html"><em>Ils témoignent</em> </a>
+              </li>
+              <li class="nav-item mx-1 shadow rounded ">
+                <a class="nav-link" href="references.html"><em>Nos référence</em></a>
+              </li>
+              <li class="nav-item mx-1 shadow rounded">
+                <a class="nav-link" href="contact.html"><em>Nous contacter</em></a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </nav>
     </header>
-    <main>
-      <h1>Les stagiaires témoignent</h1>
-      <div class="temoignages">
-        <div class="carte-temoignage">
-          <div class="carte-temoignage-photo">
-            <img
-              src="PhotosTemoignages/AlexisGarnier.jpg"
-              alt="portrait stagiaire"
-            />
+    <main class="pt-5 "> 
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb pt-3">
+          <li class="breadcrumb-item"><a href="index.html">Accueil</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Ils témoignent</li>
+        </ol>
+      </nav>
+      <h1 class="text-center">Les stagiaires témoignent</h1>
+      <div class="container ">
+        <div class="row ">
+          <div class="col-12 col-md-4 mt-3">
+            <div class="card">
+              <img class="card-img-top m-2" src="PhotosTemoignages/AlexisGarnier.jpg"
+              alt="portrait stagiaire">
+              <div class="card-body text-white">
+                <h5 class="card-title">Alexis Garnier</h5>
+                <p class="card-subtitle">Développeur</p>
+                <p class="card-subtitle">WISY, Tulle</p>
+                <p class="card-text">A Cogolin, je m‘ennuyais. L’immobilier, ce n’était pas pour moi.
+                  J’avais envie de changer et de me lancer dans quelque chose que
+                  j’aimerais vraiment. C’est un bilan de compétences qui a confirmé
+                  mes aspirations pour le développement web. J’ai intégré la formation
+                  de Brive en 2018. Je n’ai jamais travaillé dans l’informatique mais
+                  c’était toute ma passion. Avec 35 heures de formation par semaine, 6
+                  mois sur site et 2 mois en entreprise, je peux dire qu’on apprend
+                  beaucoup. Notre groupe a bien fonctionné avec de l’écoute et de
+                  l’entraide. La compétition, c’était avant</p>
+              </div>
+            </div>
           </div>
-          <div class="carte-temoignage-nom">Alexis Garnier</div>
-          <div class="carte-temoignage-fonction">Développeur</div>
-          <div class="carte-temoignage-entreprise">WISY, Tulle</div>
-          <div class="carte-temoignage-message">
-            A Cogolin, je m‘ennuyais. L’immobilier, ce n’était pas pour moi.
-            J’avais envie de changer et de me lancer dans quelque chose que
-            j’aimerais vraiment. C’est un bilan de compétences qui a confirmé
-            mes aspirations pour le développement web. J’ai intégré la formation
-            de Brive en 2018. Je n’ai jamais travaillé dans l’informatique mais
-            c’était toute ma passion. Avec 35 heures de formation par semaine, 6
-            mois sur site et 2 mois en entreprise, je peux dire qu’on apprend
-            beaucoup. Notre groupe a bien fonctionné avec de l’écoute et de
-            l’entraide. La compétition, c’était avant
+          <div class="col-12 col-md-4 mt-3">
+            <div class="card">
+              <img class="card-img-top m-2" src="PhotosTemoignages/SarahChesnee.jpg"
+              alt="portrait stagiaire">
+              <div class="card-body text-white">
+                <h5 class="card-title">Sarah Chesnée</h5>
+                <p class="card-subtitle ">Développeuse Web</p>
+                <p class="card-subtitle">SII, Bordeaux</p>
+                <p class="card-text">Si je devais résumer mon orientation professionnelle, je dirais que
+                  je suis passée du côté obscure de la force, de la théorie à la
+                  technique. J’ai fait des études en marketing et communication
+                  digitale. Après l’obtention de mon diplôme, j’ai cherché du travail
+                  pendant plus d’un an et demi. A 24 ans, j’ai dû retourner vivre chez
+                  mes parents. La formation de développeur AFPA, c’est pour moi un
+                  nouveau départ. D’abord, à l’Afpa, j’ai appris à voir mes
+                  expériences précédentes comme un atout pour mon nouveau métier, et
+                  non comme un échec. Grâce à tout ce que j’ai acquis ici, des bases
+                  solides, des méthodes de travail qui me permettent d’être autonome
+                  et de m’adapter facilement aux nouvelles technologies, j’ai de
+                  nouveau l’espoir d’intégrer l’emploi, et un emploi durable!</p>
+              </div>
+            </div>
           </div>
-        </div>
-
-        <div class="carte-temoignage">
-          <div class="carte-temoignage-photo">
-            <img
-              src="PhotosTemoignages/SarahChesnee.jpg"
-              alt="portrait stagiaire"
-            />
-          </div>
-          <div class="carte-temoignage-nom">Sarah Chesnée</div>
-          <div class="carte-temoignage-fonction">Développeuse Web</div>
-          <div class="carte-temoignage-entreprise">SII, Bordeaux</div>
-          <div class="carte-temoignage-message">
-            Si je devais résumer mon orientation professionnelle, je dirais que
-            je suis passée du côté obscure de la force, de la théorie à la
-            technique. J’ai fait des études en marketing et communication
-            digitale. Après l’obtention de mon diplôme, j’ai cherché du travail
-            pendant plus d’un an et demi. A 24 ans, j’ai dû retourner vivre chez
-            mes parents. La formation de développeur AFPA, c’est pour moi un
-            nouveau départ. D’abord, à l’Afpa, j’ai appris à voir mes
-            expériences précédentes comme un atout pour mon nouveau métier, et
-            non comme un échec. Grâce à tout ce que j’ai acquis ici, des bases
-            solides, des méthodes de travail qui me permettent d’être autonome
-            et de m’adapter facilement aux nouvelles technologies, j’ai de
-            nouveau l’espoir d’intégrer l’emploi, et un emploi durable!
-          </div>
-        </div>
-        <div class="carte-temoignage">
-          <div class="carte-temoignage-photo">
-            <img
-              src="PhotosTemoignages/AntoineGermanique.jpg"
-              alt="portrait stagiaire"
-            />
-          </div>
-          <div class="carte-temoignage-nom">Antoine Germanique</div>
-          <div class="carte-temoignage-fonction">Développeur Full-stack JS</div>
-          <div class="carte-temoignage-entreprise">ADNEOM, Bruxelles</div>
-          <div class="carte-temoignage-message">
-            Mes expériences professionnelles précédentes avaient été diverses et
-            variées; liées principalement au monde du graphisme. Ces activités
-            ne m'apportaient pas la satisfaction et la stabilité que je
-            recherchais. Après la découverte d'un intérêt pour la programmation,
-            j'ai décidé de consolider mes connaissances en suivant la formation
-            développeur de l’AFPA. Grâce à cette formation, j'ai pu bénéficier
-            d'un environnement d'apprentissage favorable me donnant accès à des
-            bases solides couvrant la totalité du spectre du monde du
-            développement Web. J'y ai également trouvé une équipe humainement
-            investie dans la réussite des stagiaires. J'y ai rencontré des
-            collègues de formation dont la diversité et la motivation m'ont
-            permis d'évoluer. A l’issue de cette formation, j'ai facilement
-            trouvé un emploi en Belgique dans un environnement stimulant qui
-            m'ouvre toujours plus de possibilités pour mon avenir.
+          <div class="col-12 col-md-4 mt-3">
+              <div class="card">
+                <img class="card-img-top m-2" src="PhotosTemoignages/AntoineGermanique.jpg"
+                alt="portrait stagiaire">
+                <div class="card-body text-white">
+                  <h5 class="card-title">Antoine Germanique</h5>
+                  <p class="card-subtitle">Développeur Full-stack JS</p>
+                  <p class="card-subtitle">ADNEOM, Bruxelles</p>
+                  <p class="card-text">Mes expériences professionnelles précédentes avaient été diverses et
+                    variées; liées principalement au monde du graphisme. Ces activités
+                    ne m'apportaient pas la satisfaction et la stabilité que je
+                    recherchais. Après la découverte d'un intérêt pour la programmation,
+                    j'ai décidé de consolider mes connaissances en suivant la formation
+                    développeur de l’AFPA. Grâce à cette formation, j'ai pu bénéficier
+                    d'un environnement d'apprentissage favorable me donnant accès à des
+                    bases solides couvrant la totalité du spectre du monde du
+                    développement Web. J'y ai également trouvé une équipe humainement
+                    investie dans la réussite des stagiaires. J'y ai rencontré des
+                    collègues de formation dont la diversité et la motivation m'ont
+                    permis d'évoluer. A l’issue de cette formation, j'ai facilement
+                    trouvé un emploi en Belgique dans un environnement stimulant qui
+                    m'ouvre toujours plus de possibilités pour mon avenir.</p>
+                </div>
+              </div>    
           </div>
         </div>
       </div>
     </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   </body>
 </html>
