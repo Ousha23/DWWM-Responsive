@@ -1,0 +1,17 @@
+h1{
+    color : rgba(0, 140, 149, 1);
+    text-shadow: #78BE20 1px 0 10px; 
+}
+
+/*forcer le padding de bootstrap */
+.pt-5 {
+    padding-top: 3em !important;
+}
+
+img {
+    height: 90px;
+    width: 100px;
+}
+
+
+
