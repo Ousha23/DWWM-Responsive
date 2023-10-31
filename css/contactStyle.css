@@ -1,0 +1,22 @@
+/* Mise en forme du formulaire */
+form {
+    background-color: #302035;
+    border: 10px double rgba(0, 140, 149, 1);
+    border-radius: 10px;
+}
+/* forcer le padding bootstrap */ 
+.pt-5 {
+    padding-top: 4em !important;
+}
+
+h1{
+    color : rgba(0, 140, 149, 1);
+    text-shadow: #78BE20 1px 0 10px; 
+}
+
+/* forcer la couleur du bouton valider */ 
+.btn-success {
+    background-color: #78BE20 !important;
+}
+
+

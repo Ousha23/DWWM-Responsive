@@ -1,19 +1,17 @@
-.card-img-top {
-    width: 90px !important;
-    height: 90px !important;
-}
+/* Mise en forme du titre principal*/
 h1{
     color : rgba(0, 140, 149, 1);
     text-shadow: #78BE20 1px 0 10px; 
 }
 
-.col-12 {
-    background-color: #302035;
-    border: 10px double #78BE20;
+/* Mise en forme des cards */
+.card-img-top {
+    width: 90px !important;
+    height: 90px !important;
 }
-
 .card {
     background-color: #302035;
+    box-shadow: rgba(0, 140, 149,1) -5px 5px, rgba(0, 140, 149,0.6) -10px 10px, rgba(0, 140, 149, 0.3) -15px 15px, rgba(120, 190, 32, 0.1) -20px 20px, rgba(0, 140, 149, 0.05) -25px 25px;
 }
 p {
     text-align: justify !important;
@@ -26,5 +24,5 @@ p {
 }
 .card-subtitle {
     font-style: italic;
-    color : rgba(0, 140, 149, 1);
+    color : #78BE20;
 }

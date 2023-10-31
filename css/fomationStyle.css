@@ -1,6 +1,9 @@
+/*forcer le padding bootstrap*/
 .pt-5 {
     padding-top: 4em !important;
 }
+
+/* Mise en forme de la section détail formation*/
 .detail {
     background-color: #302035;
     border: 10px double rgba(0, 140, 149, 1);
@@ -14,6 +17,7 @@ p {
     text-align: justify !important;
 }
 
+/* Mise en forme des titres*/
 .titre {
     text-decoration:underline !important;
     font-weight: bolder !important;
@@ -22,6 +26,7 @@ p {
     text-shadow: #78BE20 1px 0 10px;
 }
 
+/* Mise en place d'une bordure à droite de quelque cellules */
 .droite {
     border-left: 0.5rem solid #78BE20 !important;
 }

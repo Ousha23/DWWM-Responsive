@@ -1,3 +1,4 @@
+
 h1{
     color : rgba(0, 140, 149, 1);
     text-shadow: #78BE20 1px 0 10px; 
@@ -8,8 +9,9 @@ h1{
     padding-top: 3em !important;
 }
 
+/* forcer les tailles des imgs */
 img {
-    height: 90px;
+    height: 100px;
     width: 100px;
 }
 
