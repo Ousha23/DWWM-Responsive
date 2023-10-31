@@ -18,5 +18,15 @@ h1{
 .btn-success {
     background-color: #78BE20 !important;
 }
+.btn-success:hover {
+    background-color: white !important;
+    color: #78BE20;
+}
 
-
+.btn-danger {
+    background-color: red;
+}
+.btn-danger:hover {
+    background-color: white !important;
+    color: red;
+}

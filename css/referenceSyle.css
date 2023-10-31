@@ -9,11 +9,16 @@ h1{
     padding-top: 3em !important;
 }
 
-/* forcer les tailles des imgs */
+/* forcer les tailles des imgs et mise en forme hover*/
 img {
     height: 120px;
     width: 120px;
     object-fit: contain;
+    transition: transform 0.5s;
+}
+
+img:hover {
+    transform: rotate(360deg);
 }
 
 
