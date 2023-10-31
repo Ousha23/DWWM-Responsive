@@ -26,3 +26,14 @@ p {
     font-style: italic;
     color : #78BE20;
 }
+
+.lire {
+    color : rgba(0, 140, 149,1) !important;
+}
+.card-text, .card-body:hover .lire {
+    display: none;
+}
+
+.card-body:hover .card-text {
+    display: block;
+}
